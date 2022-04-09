@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+
+    font-family: 'DM Serif Display', serif;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Nav area */
+
+
+
+.navbar-nav li a {
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 0;
+    margin-left: 27px;
+}
+
+
+
+
+
+/* Hero-Area */
+
+.hero-area {
+    background-image: url('images/hero-bg.png');
+    background-position: center center;
+    background-size: cover;
+    padding: 100px  0 150px 0;
+}
+
+.hero-area .hero-text h1,
+p {
+    color: #fff;
+}
+
+.hero-area .hero-text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+}
+
+.hero-area .hero-text p {
+    margin: 48px 0 46px 0;
+    font-size: 16px;
+}
+
+.hero-area .hero-text a {
+    display: inline-block;
+    border-radius: 70px;
+    transition: 0.2s all ease;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 250px;
+
+
+}
+
+.hero-area .hero-text a:first-of-type {
+    color: #fff;
+    padding: 18px 49px;
+    background: #3E4B33;  
+}
+
+
+.hero-area .hero-text a:last-of-type {
+    margin-left: 21px;
+    background-color: #fff;
+    color: #000;
+    padding: 18px 36px;
+    transition: 0.2s all ease;
+}
+
+.hero-area .hero-text a:hover {
+    opacity: 0.8;
+}
+
+/* Skin Area */
+
+.skin-area {
+    padding: 100px 0 30px 0;
+}
+
+
+.skin-left-side img {
+    margin: 150px 0 0 0;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.skin-right-side {
+    margin: 245px 0 50px 0;
+    padding-left: 60px;
+  }
+
+.skin-right-side h3 {
+    font-family: 'DM Serif Display';
+    font-size: 42px;
+}
+
+.skin-right-side p {
+    color: #000;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    margin: 28px 0 35px 0;
+    line-height: 36px;
+}
+
+.skin-right-side a {
+    display: inline-block;
+    padding: 20px 43px 21px 43px;
+    background-color: #3E4B33;
+    border-radius: 70px;
+    color: #fff;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.skin-right-side a:hover {
+    opacity: 0.7;
+}
+
+ .skin-img {
+     text-align: center;
+     position: relative;
+ }
+
+.skin-img img {
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        position: absolute;
+        top: -188px;
+        left: 50%;
+        transform: translate(-50%);
+  }
+
+  .skin-content {
+      position: relative;
+  }
+
+  .skin-text {
+     
+      background: #EDD2C6;
+      padding: 30px;
+      position: absolute;
+      left: 40%;
+      transform: translateY(-60%);
+      
+  }
+
+
+  .skin-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .skin-text p {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    color:#000;
+    margin: 0;
+  }
+
+  /* Assessment Area */
+
+  .skin-assesment {
+      padding: 150px 0 100px 0;
+  }
+
+  .assesment-left-side {
+      padding-left: 30px;
+  }
+
+  .assesment-left-side h2 {
+      font-size: 42px;
+      font-family: 'DM Serif Display', serif;
+      color:#000;
+      margin:  20px 0 36px 0;
+  }
+
+  .assesment-left-side p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .assesment-left-side p:last-of-type {
+      margin-top: 35px;
+  }
+
+  .assesment-left-side a:first-of-type {
+      display: inline-block;
+      background-color: #3E4B33;
+      color: #fff;
+      padding: 21px 70px;
+      border-radius: 70px;
+      margin-top: 123px;
+      font-family: 'DM Sans';
+      font-size: 16px;
+      transition: 0.2s;
+  }
+
+  .assesment-left-side a:hover {
+      opacity: 0.7;
+  }
+
+  .assesment-left-side a:last-of-type {
+      color: #3E4B33;
+      padding: 0;
+      margin-left: 36px;
+      font-family: 'DM Sans';
+       
+  }
+
+  .assesment-left-side span {
+      margin: 0 5px 0 10px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #3E4B33;
+      font-family: 'DM Sans';
+      cursor: pointer;
+  }
+
+  .assesment-left-side i {
+      cursor: pointer;
+      font-size: 14px;
+  }
+
+  .assesment-right-side {
+      padding-left: 88px;
+      position: relative;
+  }
+
+
+
+.price-box {
+      width: 126px;
+      height: 126px;
+      background-color: #EDD2C6;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      text-align: center;
+      line-height: 126px;
+      position: absolute;
+      top: 91%;
+      right: 7%; 
+  }
+
+  .price-box span {
+      font-size: 32px;
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+  }
+
+  /* Our Difference Area */
+
+  .our-difference {
+      background-color:#EDD2C6;
+      padding: 145px 0 300px 0;
+  }
+
+  .our-title {
+      margin-bottom: 86px;
+  }
+
+  .our-title h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 42px;
+    color: #000000;
+  }
+
+  .our-text-area h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 20px;
+    color: #AC6854;
+    margin-bottom: 12px;
+  }
+
+  .our-text-area {
+      position: relative;
+  }
+
+  .our-text-area h2::before {
+      content: "";
+      display: block;
+      width: 2px;
+      height: 28px;
+      background-color:#3E4B33;
+      position: absolute;
+      left: -20px;
+  }
+
+  .our-text-area p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 52px;
+  }
+
+  /* Face Area */
+
+  .face-items {
+    background: #3E4B33;
+    max-width: 1170px;
+    padding: 56px 70px;
+    transform: translateY(-33%);
+  }
+
+  .face-title {
+      padding-bottom: 86px;
+  }
+
+  .face-title h2 {
+    font-family: 'DM Serif Display'; 
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .face-document {
+      text-align: center;
+      position: relative;
+      
+
+  }
+
+  .face-document img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+  }
+
+  .face-document h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+  }
+
+  .face-document a {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+
+  .item-price {
+      width: 80px;
+      height: 80px;
+      background-color: #EDD2C6;
+      border-radius: 50%;
+      position: absolute;
+      top: 52%;
+      left: 66%;
+      border: 5px solid #fff;
+  }
+
+  .item-price span {
+      line-height: 80px;
+  }
+
+  /* Card Items */
+
+  .card-items {
+    background: #EDD2C6;
+    padding: 63px 0 0 0;
+  }
+
+  .card-main-title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 42px;
+    color: #000000;
+    padding-bottom: 40px;
+  }
+
+  .card img {
+      width: 100%;
+  }
+
+  .card-body h5 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    
+  }
+
+  .card-body span {
+    font-family: 'DM Sans';
+    margin: 25px 0 0 3px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #8B8B8B;
+  }
+
+  .card-body h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    margin: 19px 0 15px 0;
+    padding-bottom: 10px;
+  }
+
+  .card-body h6 {
+
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 32px;
+ }
+
+ .card-body p {
+     font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000; 
+ }
+
+ .card-link {
+
+    text-align: center;
+ }
+
+ .card-link a {
+    font-family: 'DM Sans';
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #3E4B33;
+    padding: 40px 0 63px 0;
+ }
+
+ /* Fotter */
+
+ .footer-area {
+     padding: 68px 0 0 0;
+ }
+
+ hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+ }
+
+ .copyright {
+    font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #8B8B8B;
+  margin-bottom: 20px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
